@@ -39,8 +39,8 @@ const App: FC = () => {
                 <Heading>Contacts</Heading>
                 <Paragraph>
                   <div className="flex flex-col h-full">
-                    <Contacts data={data} />
-                    <Social data={data} />
+                    <Contacts data={data.contacts} />
+                    <Social data={data.social} />
                   </div>
                 </Paragraph>
               </div>

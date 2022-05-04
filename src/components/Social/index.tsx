@@ -1,12 +1,6 @@
 // Social
 import { FC } from 'react'
-
-type Props = {
-  data: {
-    label: string
-    href: string
-  }[]
-}
+import { Props } from '@/types'
 
 const Social: FC<Props> = (props) => {
   return (

@@ -1,12 +1,6 @@
 // Contacts
 import { FC } from 'react'
-
-type Props = {
-  data: {
-    label: string
-    href: string
-  }[]
-}
+import { Props } from '@/types'
 
 const Contacts: FC<Props> = (props) => {
   return (

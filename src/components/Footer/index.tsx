@@ -1,11 +1,14 @@
 // Footer
 import { FC } from 'react'
+import styles from './styles.module.css'
 
 const Footer: FC = () => {
   return (
-    <footer className="py-8">
-      <div className="container mx-auto">
-        <div className="text-center">Coded with ❤ by Valentine Samoylov.</div>
+    <footer className={styles.footer}>
+      <div className="container">
+        <div className={styles.footerInner}>
+          Coded with ❤ by Valentine Samoylov.
+        </div>
       </div>
     </footer>
   )

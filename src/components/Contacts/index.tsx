@@ -1,16 +1,14 @@
 // Contacts
 import { FC } from 'react'
 import { Props } from '@/types'
+import styles from './styles.module.css'
 
 const Contacts: FC<Props> = (props) => {
   return (
-    <ul className="mb-8">
+    <ul className={styles.contacts}>
       {props.data.map((item, idx) => (
         <li key={idx}>
-          <a
-            className="font-medium transition-color hover:text-white"
-            href={item.href}
-          >
+          <a className={styles.link} href={item.href}>
             {item.label}
           </a>
         </li>

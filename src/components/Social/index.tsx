@@ -1,16 +1,14 @@
 // Social
 import { FC } from 'react'
 import { Props } from '@/types'
+import styles from './styles.module.css'
 
 const Social: FC<Props> = (props) => {
   return (
-    <ul className="flex flex-col gap-2 sm:flex-row sm:flex-wrap mt-auto">
+    <ul className={styles.social}>
       {props.data.map((item, idx) => (
-        <li className="flex" key={idx}>
-          <a
-            className="font-medium transition-color hover:text-white"
-            href={item.href}
-          >
+        <li key={idx}>
+          <a className={styles.link} href={item.href}>
             {item.label}
           </a>
         </li>

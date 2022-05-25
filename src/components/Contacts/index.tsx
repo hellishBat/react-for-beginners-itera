@@ -1,9 +1,9 @@
 // Contacts
 import { FC } from 'react'
-import { Props } from '@/types'
+import { LinkTypes } from '@/types'
 import styles from './styles.module.css'
 
-const Contacts: FC<Props> = (props) => {
+const Contacts: FC<LinkTypes> = (props) => {
   return (
     <ul className={styles.contacts}>
       {props.data.map((item, idx) => (

@@ -1,9 +1,12 @@
 {
-  "name": "Valentine Samoylov",
+  "userName": "Valentine Samoylov",
   "position": "Front-end developer",
-  "about": "My name is Valentine, I am a front-end developer from Odessa, Ukraine. I like to learn new technologies and improve my skills to create awesome web apps and webpages. I studied web development by myself and continue to improve my knowledge and skills. I am looking forward to working on new, interesting projects and meeting new people.",
-  "skills": "Responsive and adaptive design, BEM, HTML, CSS, TailwindCSS, Bootstrap, Bulma, EJS, Pug (Jade), SASS/SCSS, PostCSS, JavaScript, React, Node.js,NPM, Yarn, Gulp, Webpack, Git, Figma, Adobe Photoshop, Atlassian Jira.",
-  "contacts": [
+  "aboutHeading": "About me",
+  "aboutText": "My name is Valentine, I am a front-end developer from Odessa, Ukraine. I like to learn new technologies and improve my skills to create awesome web apps and webpages. I studied web development by myself and continue to improve my knowledge and skills. I am looking forward to working on new, interesting projects and meeting new people.",
+  "skillsHeading": "Skills",
+  "skillsText": "Responsive and adaptive design, BEM, HTML, CSS, TailwindCSS, Bootstrap, Bulma, EJS, Pug (Jade), SASS/SCSS, PostCSS, JavaScript, React, Node.js,NPM, Yarn, Gulp, Webpack, Git, Figma, Adobe Photoshop, Atlassian Jira.",
+  "contactsHeading": "Contacts",
+  "contactsLinks": [
     {
       "label": "valentine-samoylov.vercel.app",
       "href": "valentine-samoylov.vercel.app"
@@ -14,7 +17,7 @@
     },
     { "label": "+38 (093) 145 33 54", "href": "tel:+380931453354" }
   ],
-  "social": [
+  "socialLinks": [
     { "label": "GitHub", "href": "https://github.com/valentine-samoylov" },
     {
       "label": "LinkedIn",

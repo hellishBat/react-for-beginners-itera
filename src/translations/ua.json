@@ -1,0 +1,39 @@
+{
+  "userName": "Валентин Самойлов",
+  "position": "Front-end розробник",
+  "aboutHeading": "Про мене",
+  "aboutText": "Мене звати Валентин, я фронтенд-розробник з м.Одеса. Мені подобається вивчати нові технології та вдосконалювати свої навички, щоб створювати чудові веб-додатки та веб-сторінки. Я вивчав веб-розробку самостійно і продовжую вдосконалюватися мої знання та навички. Я з нетерпінням чекаю роботи над новими цікавими проектами та знайомства з новими людьми.",
+  "skillsHeading": "Навички",
+  "skillsText": "Адаптивний дизайн, BEM, HTML, CSS, TailwindCSS, Bootstrap, Bulma, EJS, Pug (Jade), SASS/SCSS, PostCSS, JavaScript, React, Node.js,NPM, Yarn, Gulp, Webpack , Git, Figma, Adobe Photoshop, Atlassian Jira.",
+  "contactsHeading": "Контакти",
+  "contactsLinks": [
+    {
+      "label": "valentine-samoylov.vercel.app",
+      "href": "valentine-samoylov.vercel.app"
+    },
+    {
+      "label": "valentine.samoylov@gmail.com",
+      "href": "mailto:valentine.samoylov@gmail.com"
+    },
+    { "label": "+38 (093) 145 33 54", "href": "tel:+380931453354" }
+  ],
+  "socialLinks": [
+    { "label": "GitHub", "href": "https://github.com/valentine-samoylov" },
+    {
+      "label": "LinkedIn",
+      "href": "https://www.linkedin.com/in/valentine-samoylov/"
+    },
+    {
+      "label": "Skype",
+      "href": "https://join.skype.com/invite/fjnLBWvnMhpk"
+    },
+    {
+      "label": "Telegram",
+      "href": "https://t.me/valentine_samoylov/"
+    },
+    {
+      "label": "Instagram",
+      "href": "https://www.instagram.com/valentine.samoylov/"
+    }
+  ]
+}

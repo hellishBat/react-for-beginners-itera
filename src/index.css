@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap');
 
 :root {
+  --color-black: #000000;
+  --color-black-80: rgba(0, 0, 0, 0.8);
   --color-white: #ffffff;
   --color-white-80: rgba(255, 255, 255, 0.8);
+  --color-accent: #7e21d4;
 }
 
 html,
@@ -28,12 +31,17 @@ body {
 li,
 ul {
   padding: 0;
+  margin: 0;
   list-style: none;
 }
 
 a {
   text-decoration: none;
   color: inherit;
+}
+
+a.active::before {
+  transform: scaleX(1);
 }
 
 #root {
@@ -46,6 +54,10 @@ a {
 
 main {
   flex: 1 0 auto;
+}
+
+.wrapper {
+  padding: 6rem 0;
 }
 
 .container {

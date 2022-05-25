@@ -1,52 +1,27 @@
+// App
 import { FC } from 'react'
-import styles from './App.module.css'
-import Heading from './components/Heading'
-import Paragraph from './components/Paragraph'
-import Contacts from './components/Contacts'
-import Social from './components/Social'
-import Footer from './components/Footer'
-import data from './db/index.json'
-import img from './assets/owner-photo.jpg'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import TranslationContext from './context/TranslationContext'
+
+// import styles from './App.module.css'
+import Header from './layouts/Header'
+import Footer from './layouts/Footer'
+import Home from './pages/Home'
+import About from './pages/About'
 
 const App: FC = () => {
   return (
     <>
-      <main>
-        <section className={styles.wrapper}>
-          <div className="container">
-            <div className={styles.grid}>
-              <div className={`${styles.card} ${styles.liliac}`}>
-                <div className={styles.cardInner}>
-                  <img className={styles.image} src={img} alt="" />
-                  <div className={styles.cardHeader}>
-                    <h1 className={styles.heading}>{data.name}</h1>
-                    <h2 className={styles.subheading}>{data.position}</h2>
-                  </div>
-                </div>
-              </div>
-
-              <div className={`${styles.card} ${styles.green}`}>
-                <Heading>About Me</Heading>
-                <Paragraph>{data.about}</Paragraph>
-              </div>
-
-              <div className={`${styles.card} ${styles.peach}`}>
-                <Heading>Skills</Heading>
-                <Paragraph>{data.skills}</Paragraph>
-              </div>
-
-              <div className={`${styles.card} ${styles.cyan}`}>
-                <Heading>Contacts</Heading>
-                <Paragraph>
-                  <Contacts data={data.contacts} />
-                  <Social data={data.social} />
-                </Paragraph>
-              </div>
-            </div>
-          </div>
-        </section>
-      </main>
-      <Footer />
+      <TranslationContext>
+        <Router>
+          <Header />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+          </Routes>
+          <Footer />
+        </Router>
+      </TranslationContext>
     </>
   )
 }

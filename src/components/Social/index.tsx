@@ -1,9 +1,9 @@
 // Social
 import { FC } from 'react'
-import { Props } from '@/types'
+import { LinkTypes } from '@/types'
 import styles from './styles.module.css'
 
-const Social: FC<Props> = (props) => {
+const Social: FC<LinkTypes> = (props) => {
   return (
     <ul className={styles.social}>
       {props.data.map((item, idx) => (

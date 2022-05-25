@@ -1,8 +1,4 @@
-/* App */
-.wrapper {
-  padding: 6rem 0;
-}
-
+/* About */
 .grid {
   display: grid;
   gap: 2rem;
@@ -47,7 +43,7 @@
   border-radius: 50%;
 }
 
-.liliac {
+.lilac {
   background-image: radial-gradient(
     circle farthest-corner at 11.7% 80.6%,
     rgba(249, 185, 255, 1) 0%,
